@@ -2687,3 +2687,21 @@ body {
     vertical-align: middle
 }
 
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+    .mobile-menu {
+        display: flex;
+    }
+}
+/* 
+@media (min-width: 800px) {
+    .mobile-menu {
+        display: none;
+    }
+} */
